@@ -1,0 +1,289 @@
+.logo {
+    width: 65px;
+    height: 45px;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+form {
+    width: 200px;
+}
+.search {
+    width: 80%;
+    margin-left: 50px;
+    background-color: #ebedee;
+}
+
+.search-bar {
+    background-color: #ebedee;
+}
+
+nav {
+    padding-bottom: 0px;
+}
+
+.first-navbar {
+    font-size: smaller;
+    height: 30px;
+}
+
+.second-navbar {
+    height: 50px;
+    font-size: 15px;
+}
+
+.second-navbar nav ul .nav-item:hover {
+    border-bottom-style: solid;
+    margin-bottom: 0px;
+}
+
+.covid {
+    height: 50px;
+    background-color: #ebedee;
+}
+
+.fa-shopping-bag {
+    margin-top: 1.5%;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.banner-content {
+    color: white;
+    width: 70%;
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-content-text {
+    font-weight: 1000;
+    text-shadow: 1px 1px #333;
+}
+
+.wrapper{
+    position: fixed;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+  }
+  
+  .mens {
+      width: 180px;
+  }
+
+  .womens {
+    width: 210px;
+  }
+
+  .category-button{
+    display: block;
+    height: 50px;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #333;
+    background-color: white;
+    border: 2px solid white;
+    box-shadow: 3px 3px rgba(255,255,255,0.8);
+    letter-spacing: 2px;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .category-button span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .category-button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+  }
+  
+  .category-button:hover{
+    color: #fff;
+  }
+  
+  .category-button:hover:after{
+    width: 100%;
+  }
+
+  .fa-long-arrow {
+      font-size: 100px;
+  }
+
+  .card {
+    width: 100%;
+    height: 200px;
+    background-color: #ebedee;
+    border: none;
+    border-radius: 0;
+  }
+
+  .card:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+  }
+
+  .card-img-top {
+    width: 150px;
+    height: 150px;
+    margin-left: 25%;
+  }
+
+  .card-text {
+      text-align: center;
+      font-weight: 600;
+      text-decoration: underline;
+  }
+
+  .running-shoes, .energy-ss20 {
+      width: 100%;
+      height: 100%;
+  }
+
+  .poster-content {
+        color: #ffffff;
+        width: 70%;
+        position: absolute;
+        top: 185%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+  }
+
+  .wrapper1 {
+      position: fixed;
+      margin-left: 13%;
+  }
+
+  .wrapper2 {
+    position: fixed;
+    margin-top: 7.8%;
+    margin-left: 55%;
+}
+
+.training {
+    width: 100%;
+    height: 100%;
+}
+
+.training-content {
+    color: #ffffff;
+    width: 70%;
+    position: absolute;
+    top: 270%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.training-content-text {
+    font-weight: 1000;
+    text-shadow: 1px 1px black;
+}
+
+.wrapper3 {
+    position: fixed;
+}
+
+.wrapper3 .category-button {
+    width: 100%;
+}
+
+.whats-trending {
+    font-weight: 1000;
+    font-size: 36px;
+}
+
+.card-slider {
+    height: 100%;
+}
+
+.card-slider img {
+    width: 80%;
+}
+
+.card-slider .card-body {
+    background-color: white;
+}
+
+.card-slider .card-body .card-text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    text-decoration: none;
+    text-align: left;
+}
+
+.card-slider .card-img-top {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.story {
+    background-color: #ebedee;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.story-col-1 {
+    font-size: 14px;
+}
+
+.story-col-1 strong {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.story-col-1 p {
+    width: 70%;
+    margin-left: 25%;
+    padding-top: 5%;
+}
+
+.story-col-2 {
+    font-size: 14px;
+}
+
+.story-col-2 strong {
+    width: 50%;
+    margin-right: 25%;
+}
+
+.story-col-2 p {
+    width: 70%;
+    margin-right: 25%;
+    padding-top: 5%;
+}
+
+.prefooter {
+    background-color: #FFDD00;
+}
+
+.prefooter .category-button {
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px white;
+    border: 1px solid black;
+}
+
+.footer {
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    font-size: 11px;
+}
